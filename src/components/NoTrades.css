@@ -1,0 +1,34 @@
+.noTradesWrapper {
+  /* background-color: rgb(202, 215, 255); */
+  background: radial-gradient(
+    circle at top right,
+    #ffffff,
+    #d8d8d8,
+    #a1a1a1,
+    #848484
+  );
+  border-radius: 10px;
+  height: 725px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noTradesMessage {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.noTradesMessage p {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.668);
+  /* border: 1px solid blue; */
+}
+.noTradesIcon {
+  font-size: 300px;
+  /* border: 1px solid blue; */
+  color: rgba(0, 0, 0, 0.668);
+}

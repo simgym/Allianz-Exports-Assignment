@@ -1,0 +1,85 @@
+.allTradesWrapper {
+  /* border: 1px solid black; */
+}
+.allTradesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.allTradesHeader h2 {
+  /* border: 1px solid orange; */
+  flex: 2;
+}
+.slippageWrapper {
+  display: flex;
+  /* border: 1px solid rgb(255, 0, 247); */
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.slippageOptions {
+  height: 0%;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(168, 168, 168);
+}
+.tradeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(190, 190, 190);
+}
+.tradeWrapper:hover {
+  background-color: rgb(217, 217, 217);
+}
+.nameCalmarRatio {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(159, 159, 2); */
+}
+.calmarRatioWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.allTradesList {
+  /* border: 1px solid rgb(179, 20, 46); */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 200px;
+  max-height: 650px;
+  overflow-y: scroll;
+}
+.priceDetailIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  /* border: 1px solid purple; */
+  flex: 1;
+  padding-right: 10px;
+}
+.rankName {
+  display: flex;
+  /* border: 1px solid brown; */
+  flex: 2;
+  justify-content: flex-start;
+  padding-left: 10px;
+  gap: 20px;
+}
+.tradeCost {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid yellow; */
+}

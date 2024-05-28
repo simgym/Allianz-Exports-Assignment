@@ -1,0 +1,125 @@
+.tradeDetailsWrapper {
+  background-color: white;
+  border-radius: 10px;
+  height: 725px;
+  overflow-y: scroll;
+  border: 1px solid rgb(190, 190, 190);
+}
+.tradeDetailsHeader {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tradeDetailsHeader span {
+  /* border: 1px solid blue; */
+}
+.backSymbol {
+  flex: 0;
+  font-size: 30px;
+  display: flex;
+}
+.tradeName {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.typesOfGraphs {
+  display: flex;
+  /* border: 1px solid rgb(192, 131, 0); */
+  justify-content: center;
+  gap: 10px;
+}
+.typesOfGraphs p {
+  /* border: 1px solid blue; */
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: rgb(220, 220, 220);
+  font-size: 20px;
+}
+.typesOfGraphs p:hover {
+  background-color: rgb(198, 196, 196);
+}
+.tradeGraphImg {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid purple; */
+}
+.tradeGraphImg img {
+  width: 50vw;
+}
+
+.tradeRatioPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 1px solid blue; */
+  padding-left: 5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.data-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-container {
+  width: 90%;
+  background-color: #f0f0f0;
+  /* border: 1px solid #ccc; */
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.block {
+  height: 100%;
+  background-color: #ffaa33;
+  transition: width 0.3s ease;
+}
+.dataBlockHeader {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.data-block strong {
+  font-size: 16px;
+}
+
+.data-block p {
+  margin: 0;
+  font-size: 14px;
+}
+.buyStock {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.buyStock button {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 106, 255);
+  border-radius: 10px;
+  border: none;
+}
+.buyStock button:hover {
+  background-color: rgb(0, 93, 223);
+}
+
+@media (min-width: 768px) {
+  .tradeGraphImg img {
+    width: 500px;
+    height: 500px;
+  }
+}
